@@ -2,8 +2,8 @@ from flask import redirect, render_template
 
 class CalcController():
   def soma(num1, num2):
-    soma = int(num1) + int(num2)
-    return f'Soma = {soma}'
+    res = int(num1), int(num2)
+    return f'Soma = {sum(res)}'
 
 class Index():
   def index():
