@@ -10,7 +10,7 @@ def index():
 
 @app.route('/sum/<num1>/<num2>')
 def soma(num1, num2):
-  return CalcController.soma(num1, num2)
+  return CalcController.sum(num1, num2)
   
   
 
